@@ -119,6 +119,10 @@ public enum TFM_PlayerRank
         {
             return OWNER;
         }
+        if (sender.getName().equals("Luka4Gamer"))
+        {
+            return WEBDEVS;
+        }
         if (sender.getName().equals("puppylover989"))
         {
             return CoOwner;

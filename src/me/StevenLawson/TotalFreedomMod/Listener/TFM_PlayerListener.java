@@ -1108,6 +1108,11 @@ public class TFM_PlayerListener implements Listener
             TFM_PlayerData.getPlayerData(player).setTag("&8[&9Chief of Security&8]");
             TFM_Util.bcastMsg(ChatColor.AQUA + "SupItsDillon is the " + ChatColor.GOLD + "Cheif of Security " + ChatColor.AQUA + "and.. ");
         }
+        else if (username.equalsIgnoreCase("Luka4Gamer"))
+        {
+            player.setPlayerListName(ChatColor.DARK_PURPLE + player.getName());
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&5Web Developer&8]");  
+        }
         else if (username.equalsIgnoreCase("DragonHunterGW"))
         {
             //ban username
