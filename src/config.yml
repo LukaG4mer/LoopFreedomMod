@@ -98,7 +98,11 @@ blocked_commands:
   - 'n:u:/restart:_'
   - 's:b:/mail sendall:&4You cannot send mails to everyone!'
   - 'n:u:/tellraw:_'
-
+  - 'n:u:/br:_'
+  - 'n:u:/brush:_'
+  - 'n:u:/mask:_'
+  - 'n:u:/tool:_'
+  
 
   # Superadmin commands
   - 's:b:/deopall:_'
@@ -110,7 +114,6 @@ blocked_commands:
   - 's:b://generate:_'
   - 's:b://:_'
   - 's:b:/superpickaxe:_'
-  - 's:b:/brush:_'
   - 's:b:/mat:_'
   - 's:b:/tool:_'
   - 's:b://butcher:_'
