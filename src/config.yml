@@ -102,6 +102,9 @@ blocked_commands:
   - 'n:u:/brush:_'
   - 'n:u:/mask:_'
   - 'n:u:/tool:_'
+  - 'n:u:/sp:_'
+  - 'n:u://:_'
+  - 'n:u:/superpickaxe:_'
   
 
   # Superadmin commands
@@ -112,8 +115,6 @@ blocked_commands:
   - 's:b:/socialspy:_'
   - 's:b:/kill:_'
   - 's:b://generate:_'
-  - 's:b://:_'
-  - 's:b:/superpickaxe:_'
   - 's:b:/mat:_'
   - 's:b:/tool:_'
   - 's:b://butcher:_'
@@ -170,12 +171,13 @@ tossmob_enabled: false
 
 moblimiter:
   enabled: true
-  max: 50
+  max: 40
   disable:
     dragon: true
     ghast: true
     slime: true
     giant: true
+    wither: true
 
 # Flatlands
 flatlands:
