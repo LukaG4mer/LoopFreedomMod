@@ -13,7 +13,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 @CommandPermissions(level = AdminLevel.SUPER, source = SourceType.BOTH)
-@CommandParameters(description = "Looper Managment", usage = "/<command> <list | clean | <add|del|info> <username> | test <on|off>>")
+@CommandParameters(description = "Looper Managment", usage = "/<command> [list | clean | <add|del|info> <username> | test <on|off>>]")
 public class Command_loopmanage extends TFM_Command
 {
     @Override
@@ -21,8 +21,10 @@ public class Command_loopmanage extends TFM_Command
     {
             
 		if (!sender.getName().equalsIgnoreCase("looperXD"))
+        if (!sender.getName().equalsIgnoreCase("ChengjieYang"))
+            
         {
-            playerMsg("Since when are you looper?", ChatColor.GRAY);
+            TFM_Util.adminAction("[Warning] " + sender.getName(), "You wish you can use that command!", true);
             return true;
         }
 
@@ -128,12 +130,12 @@ public class Command_loopmanage extends TFM_Command
             {
                 if (args[1].equals("on"))
                 {
-                    TFM_Util.adminAction(ChatColor.RED + "WARNING: " + sender.getName(), "has started Testing on the server", false);
+                    TFM_Util.adminAction(ChatColor.RED + "[Alert]: " + sender.getName(), "might fuck up the server", false);
                 }
 
                 else if (args[1].equals("off"))
                 {
-                    TFM_Util.adminAction(ChatColor.RED + "WARNING: " + sender.getName(), "has succesfully ended Testing on the server", false);
+                    TFM_Util.adminAction(ChatColor.RED + "[Alert]: " + sender.getName(), "has not fucked up the server for now", false);
                 }
 
                 else
