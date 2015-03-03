@@ -57,7 +57,7 @@ public class Command_loopfun extends TFM_Command
 
         else if (args[0].equalsIgnoreCase("obliviate") || args[0].equalsIgnoreCase("obv"))
         {
-            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("ChengjieYang"))
+            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("reuben4545"))
             {
                 if (args.length == 1)
                 {
@@ -211,7 +211,7 @@ public class Command_loopfun extends TFM_Command
 
         else if (args[0].equalsIgnoreCase("nope"))
         {
-            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("ChengjieYang"))
+            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("reuben4545"))
             {
                 if (args.length == 1)
                 {
@@ -293,7 +293,7 @@ public class Command_loopfun extends TFM_Command
                         player.getWorld().createExplosion(player.getLocation(), 7F);
 
                         // kick player
-                        player.kickPlayer(ChatColor.RED + "NOPE!\nAppeal at totalfreedom.boards.net\nAnd make sure you follow the rules at totalfreedom.me!");
+                        player.kickPlayer(ChatColor.RED + "NOPE!\nAppeal at http://loopfreedom.boards.net/\nAnd make sure you follow the rules at LoopFreedom!");
                     }
                 }.runTaskLater(plugin, 120L);
 
@@ -307,7 +307,7 @@ public class Command_loopfun extends TFM_Command
 
         else if (args[0].equalsIgnoreCase("smite"))
         {
-            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("ChengjieYang"))
+            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("reuben4545"))
             {
                 if (args.length < 3)
                 {
@@ -363,7 +363,7 @@ public class Command_loopfun extends TFM_Command
 
         else if (args[0].equalsIgnoreCase("bc"))
         {
-            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("ChengjieYang"))
+            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("reuben4545"))
             {
                 if (args.length == 1)
                 {
@@ -393,7 +393,7 @@ public class Command_loopfun extends TFM_Command
         }
         else if (args[0].equalsIgnoreCase("ride"))
         {
-            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("ChengjieYang") || sender instanceof ConsoleCommandSender)
+            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("reuben4545") || sender instanceof ConsoleCommandSender)
             {
                 sender.sendMessage(ChatColor.RED + "You do not have permission to use this command, or you are runnning this command from the console.");
             }
@@ -410,7 +410,7 @@ public class Command_loopfun extends TFM_Command
                 {
                     if (!player.getName().equalsIgnoreCase(sender.getName()))
                     {
-                        if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("ChengjieYang"))
+                        if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("reuben4545"))
                         {
                             if (player.isEmpty())
                             {
@@ -441,7 +441,7 @@ public class Command_loopfun extends TFM_Command
 
         else if (args[0].equalsIgnoreCase("machat"))
         {
-            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("ChengjieYang"))
+            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("reuben4545"))
             {
                 if (args.length == 1)
                 {
@@ -480,7 +480,7 @@ public class Command_loopfun extends TFM_Command
         }
         else if (args[0].equalsIgnoreCase("thinice"))
         {
-            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("ChengjieYang"))
+            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("reuben4545"))
             {
                 if (args.length == 1)
                 {
@@ -548,7 +548,7 @@ public class Command_loopfun extends TFM_Command
                         // ban name
                         TFM_BanManager.addUuidBan(new TFM_Ban(player.getUniqueId(), player.getName()));
                         // Kick
-                        player.kickPlayer(ChatColor.RED + "You fell from the thin ice! Maybe you should read the rules at totalfreedom.me.");
+                        player.kickPlayer(ChatColor.RED + "You fell from the thin ice! Maybe you should read the rules at http://loopfreedom.boards.net/.");
                     }
                 }.runTaskLater(plugin, 80L);
 
@@ -562,7 +562,7 @@ public class Command_loopfun extends TFM_Command
 
         else if (args[0].equalsIgnoreCase("warn"))
         {
-            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("ChengjieYang"))
+            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("reuben4545"))
             {
                 if (args.length == 1)
                 {
@@ -585,7 +585,7 @@ public class Command_loopfun extends TFM_Command
                 player.getWorld().strikeLightning(sender_p.getLocation());
                 player.setHealth(0.0);
 
-                player.sendMessage(ChatColor.DARK_RED + player.getName() + ", you are at high risk of being permanently banned (name and IP) from the Total Freedom server. Please immediately review all rules listed at www.totalfreedom.me and comply with them.");
+                player.sendMessage(ChatColor.DARK_RED + player.getName() + ", you are at high risk of being permanently banned (name and IP) from the Total Freedom server. Please immediately review all rules listed at http://loopfreedom.boards.net/ and comply with them.");
                 return true;
             }
             else
@@ -596,7 +596,7 @@ public class Command_loopfun extends TFM_Command
 
         else if (args[0].equalsIgnoreCase("facepalm"))
         {
-            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("ChengjieYang"))
+            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("reuben4545"))
             {
                 TFM_Util.bcastMsg(sender.getName() + " really needs to have a facepalm ragequit moment here...", ChatColor.RED);
                 sender_p.chat("FACEDESK");
@@ -654,7 +654,7 @@ public class Command_loopfun extends TFM_Command
             }
             else if (args[1].equals("-a"))
             {
-                if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("ChengjieYang"))
+                if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("reuben4545"))
                 {
                     TFM_Util.bcastMsg("1.) Do //wand (or use the //pos commands).", ChatColor.RED);
                     TFM_Util.bcastMsg("2.) Select the two outermost angles of your build.", ChatColor.RED);
@@ -672,7 +672,7 @@ public class Command_loopfun extends TFM_Command
 
         else if (args[0].equalsIgnoreCase("explode"))
         {
-            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("ChengjieYang"))
+            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("reuben4545"))
             {
                 sender_p.getWorld().createExplosion(sender_p.getLocation(), 5F);
 
@@ -688,7 +688,7 @@ public class Command_loopfun extends TFM_Command
 
         else if (args[0].equalsIgnoreCase("fireball"))
         {
-            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("ChengjieYang"))
+            if (sender.getName().equalsIgnoreCase("looperXD") || sender.getName().equalsIgnoreCase("reuben4545"))
             {
                 Class<? extends org.bukkit.entity.Entity> type = org.bukkit.entity.Fireball.class;
                 int speed = 2;

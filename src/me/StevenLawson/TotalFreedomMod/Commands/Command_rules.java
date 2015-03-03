@@ -13,15 +13,18 @@ public class Command_rules extends TFM_Command
     @Override
     public boolean run(CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
     {
-        playerMsg(ChatColor.RED + "§1[1]§c Respect other admins and OPS.");
-        playerMsg(ChatColor.RED + "§1[3]§c Greif and trooling is not allowed");
-        playerMsg(ChatColor.RED + "§1[4]§c You cannot tp to admins, due to privacy");
-        playerMsg(ChatColor.RED + "§1[5]§c Don't brag. Don't disrespect things about what they have.");
-        playerMsg(ChatColor.RED + "§1[6]§c Be nice and report greifers");
-        playerMsg(ChatColor.RED + "§1[7]§c Don't say any thing negitive about an admin! or OP");
-        playerMsg(ChatColor.RED + "§1[8]§c Don't try to boss the founder or developers around! DONT try to boss anyone around!");
-        playerMsg(ChatColor.RED + "§1[9]§c Don't ask for ranks period");
-        playerMsg(ChatColor.DARK_RED + "§1[10]§c Do NOT spam or abuse!");
+        playerMsg(ChatColor.AQUA + "[1] Respect other admins and OPS.");
+        playerMsg(ChatColor.AQUA + "[3] Greif and trolling is not allowed");
+        playerMsg(ChatColor.AQUA + "[4] You cannot tp to admins, due to privacy");
+        playerMsg(ChatColor.AQUA + "[5] Don't brag. Don't disrespect things about what they have.");
+        playerMsg(ChatColor.AQUA + "[6] Be nice and report greifers");
+        playerMsg(ChatColor.AQUA + "[7] Don't say any thing negitive about an admin! or OP");
+        playerMsg(ChatColor.AQUA + "[8] Don't try to boss the founder or developers around! DONT try to boss anyone around!");
+        playerMsg(ChatColor.AQUA + "[9] Don't ask for ranks period");
+        playerMsg(ChatColor.AQUA + "[10] Do not nickname other players");
+        playerMsg(ChatColor.AQUA + "[11] You can only advertise once");
+        playerMsg(ChatColor.DARK_RED + "[12] Threating to DDOS will result in Hardcore PERM BAN");
+        playerMsg(ChatColor.DARK_RED + "Do NOT spam or abuse!");
         playerMsg(ChatColor.DARK_RED + "Failier to follow these rules will result in suspension and bans");
             
             return true;
